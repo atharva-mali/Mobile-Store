@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobi Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/8159ac08f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ==========Navigation Bar========== -->
+    <nav>
+        <div class="logo">
+            <a href="#">
+                <p>mobi store</p>
+            </a>
+        </div>
+        <ul>
+            <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="about.html"><i class="fa-regular fa-address-card"></i>About</a></li>
+            <li><a href="catalogue.html"><i class="fa-solid fa-book"></i>Catalogue</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+            <li><a href="registration.html"><i class="fa-solid fa-circle-plus"></i>Register</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+        </ul>
+    </nav>
+    <!-- ==========End of Navigation Bar========== -->
+    <!-- ==========Registration form starts here========== -->
+    <div>
+        <h3>Create account</h3>
+        <p>Register</p>
+    </div>
+
+    <!-- ==========Registration form starts here========== -->
+    <!-- ==========Heading Banner starts here========== -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>REGISTRATION</h1>
+            <p>This is registration page</p>
+        </div>
+    </div>
+    <!-- ==========Heading Banner ends here========== -->
+    <section class="reg_section">
+        <div class="reg_head">
+            <h2>Create account</h2>
+        </div>
+        <div class="reg_form">
+            <form action="">
+                <label for="f_name">First Name:</label>
+                <input type="text" name="f_name" id="f_name" minlength="3" required>
+                <label for="l_name">Last Name:</label>
+                <input type="text" name="l_name" id="l_name" required>
+                <label for="email_id">Email Address:</label>
+                <input type="email" name="email_id" id="email_id" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" minlength="6" required>
+                <label for="password">Confirm Password:</label>
+                <input type="password" name="password" id="password" minlength="6" required>
+                <label for="phone_no">Mobile Number:</label>
+                <input type="number" name="phone_no" id="phone_no" maxlength="10" required>
+                <label for="gender">Gender:</label>
+                Male<input type="radio" name="gender" id="gen" required>
+                Female<input type="radio" name="gender" id="gen" required>
+                <p><input type="checkbox" name="tac" id="tac">I agree the terms and conditions.</p>
+                <input class="reg_button " type="submit" value="Register">
+            </form>
+        </div>
+    </section>
+    <!-- Footer Section starts here -->
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+        </div>
+        <ul class="foot_list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">&copy; Atharva Mali 2022</p>
+    </section>
+    <!-- Footer Section starts ends here -->
+</body>
+
+</html>

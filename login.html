@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobi Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/8159ac08f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ==========Navigation Bar========== -->
+    <nav>
+        <div class="logo">
+            <a href="#">
+                <p>mobi store</p>
+            </a>
+        </div>
+        <ul>
+            <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="about.html"><i class="fa-regular fa-address-card"></i>About</a></li>
+            <li><a href="catalogue.html"><i class="fa-solid fa-book"></i>Catalogue</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+            <li><a href="registration.html"><i class="fa-solid fa-circle-plus"></i>Register</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+        </ul>
+    </nav>
+    <!-- ==========End of Navigation Bar========== -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>LOGIN</h1>
+            <p>Login to get started.</p>
+        </div>
+    </div>
+    <!-- ==========Login Form starts here========== -->
+    <form>
+        <div class="login">
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked"> Remember me
+            <button type="button" class="cancelbtn">Cancel</button>
+            Forgot <a href="#"> password? </a>
+        </div>
+        <div class="login login_methods">
+            <p><strong>Or login using</strong></p>
+            <button class="lb"><i class="fa-brands fa-google"></i>Google</button>
+            <button class="lb"><i class="fa-brands fa-facebook"></i>Facebook</button>
+            <button class="lb"><i class="fa-brands fa-linkedin"></i>Linkedin</button>
+        </div>
+        <div class=" login login_methods">
+            <p>Don't have an account? Click here to get started</p>
+            <a href="registration.html">
+                <button class="lb"><i class="fa-solid fa-circle-plus"></i>Register</button>
+            </a>
+        </div>
+    </form>
+    <!-- ==========Login Page ends here========== -->
+    <!-- Footer Section starts here -->
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+        </div>
+        <ul class="foot_list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">&copy; Atharva Mali 2022</p>
+    </section>
+    <!-- Footer Section starts ends here -->
+</body>
+
+</html>

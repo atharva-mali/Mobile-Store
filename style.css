@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins:wght@200;400;500&display=swap");
+
+/* ==========Navagation Bar========== */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 75px;
+  background-color: #505d61;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  z-index: 1;
+}
+
+nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+nav .logo p {
+  float: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+}
+
+nav ul li a:hover {
+  color: #c0d96f;
+}
+
+nav ul li .active {
+  color: #c0d96f;
+}
+
+nav ul li i {
+  margin: 5px;
+}
+
+.bg_banner img {
+  width: 100%;
+  height: 0px auto;
+}
+
+/* ==========End of Navagation Bar========== */
+body,
+html {
+  height: 100%;
+}
+
+/* ==========Mobi Store Info Banner========== */
+.hero-image {
+  background-image: url("/img/background_banner.jpg");
+  height: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+/* ==========Mobi Store Info Banner Ends here========== */
+/* ==========Brands Section starts here========== */
+.brands {
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.brands img {
+  border-radius: 5px;
+}
+
+/* ==========Brands Section starts Ends here========== */
+/* ==========Trending section starts here========== */
+.trending {
+  background-color: antiquewhite;
+  margin: 0%;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+.trending .row .column img:hover {
+  height: auto;
+  width: 100%;
+}
+
+/* ==========Trending section ends here========== */
+/* ==========Footer Section starts here========= */
+.footer {
+  padding: 40px 0;
+  background-color: #505d61;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.footer .social a {
+  font-size: 25px;
+  color: inherit;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0.8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover {
+  opacity: 0.9;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+  color: #c0d96f;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  color: aliceblue;
+}
+
+/* ==========Footer Section starts here=========*/
+/* ==========CSS for Login Page starts here==========*/
+button {
+  background-color: #505d61;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  border-radius: 8px;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  margin: 0px 25%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid black;
+  box-sizing: border-box;
+  font-size: large;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px;
+}
+
+.login {
+  padding: 25px;
+  background-color: antiquewhite;
+  font-size: 25px;
+}
+
+.login_methods {
+  text-align: center;
+}
+
+.login_methods .lb {
+  background-color: #505d61;
+  text-align: center;
+  font-size: large;
+  padding: 10px;
+  margin: 0 10px;
+  margin-top: 7px;
+  color: #fff;
+}
+
+.login_methods button {
+  display: inline-block;
+  width: fit-content;
+  padding: 2px;
+}
+
+.login_methods i {
+  margin: 5px;
+}
+
+/* ==========CSS for Login Page starts here========== */
+/* ==========CSS for Catalogue Page starts here========== */
+.product {
+  position: relative;
+  width: 25%;
+}
+
+.pro {
+  display: inline-flex;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: 0.3s ease;
+}
+
+.product:hover .overlay {
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.product .overlay .price p {
+  font-size: 55px;
+}
+
+.price {
+  font-size: large;
+  background-color: yellow;
+  color: red;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.offer_price {
+  font-size: small;
+  background-color: yellow;
+  color: red;
+  margin: 10px 0 2px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* ==========CSS for Catalogue Page ends here========== */
+/* ==========CSS for Registration Page ends here========== */
+.reg_head {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reg_form {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f1f1f1;
+}
+
+.reg_form form {
+  margin: 0 25% 0;
+  padding: 10px;
+  border: #008cba;
+  border-radius: 8px;
+}
+
+.reg_form #gen {
+  margin: 0 10px 0;
+}
+
+#tac {
+  margin-right: 10px;
+}
+
+.reg_button {
+  font-size: large;
+  background-color: #505d61;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.reg_button:hover {
+  opacity: 0.7;
+}
+
+/* ==========CSS for Registration Page ends here========== */
+/* ==========CSS for About Page starts here========== */
+.about_column {
+  float: left;
+  margin: 10px;
+}
+
+.about_row {
+  display: inline-flex;
+}
+
+.about_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about_column span {
+  font-weight: bold;
+}
+
+.about_column h4 {
+  text-align: center;
+  margin: 5px 10px 5px;
+  padding: 2px;
+}
+
+.abt_banks img {
+  height: auto;
+  width: 200px;
+  display: block;
+}
+
+.abt_banks {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+#partner_bank {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.abt_text {
+  width: 75%;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==========CSS for About Page ends here========== */
+/* ==========CSS for Cart Page starts here========== */
+.s_cart {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.s_cart div {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.outercart {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.s_head {
+  padding: 0 25%;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.c_table_div {
+  width: 100%;
+  height: auto;
+}
+.c_table_div table {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.cart_table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.cart_table thead tr {
+  background-color: #505d61;
+  color: #ffffff;
+  text-align: left;
+}
+
+.cart_table th,
+.cart_table td {
+  padding: 12px 15px;
+}
+
+.cart_table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.cart_table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.cart_table tbody tr:last-of-type {
+  border-bottom: 2px solid #505d61;
+}
+
+.cart_table tbody tr.active-row {
+  font-weight: bold;
+  color: #505d61;
+}
+.cart_table tbody tr td img {
+  height: 75px;
+  vertical-align: middle;
+}
+.cart_table tbody td button {
+  align-items: center;
+  font-size: medium;
+  margin: 2px;
+  padding: 2px;
+}
+
+.order_summary {
+  padding: 20px;
+}
+.order_summary p {
+  text-align: left;
+}
+.order_summary p span {
+  font-weight: bold;
+}
+.ord_sum_head {
+  font-size: 30px;
+}
+.pay_button {
+  padding: 20px;
+}
+.pay_button i {
+  margin-left: 10px;
+  font: 25px;
+}
+/* ==========CSS for Cart Page ends here========== */

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobi Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/8159ac08f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ==========Navigation Bar========== -->
+    <nav>
+        <div class="logo">
+            <a href="#">
+                <p>mobi store</p>
+            </a>
+        </div>
+        <ul>
+            <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="about.html"><i class="fa-regular fa-address-card"></i>About</a></li>
+            <li><a href="catalogue.html"><i class="fa-solid fa-book"></i>Catalogue</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+            <li><a href="registration.html"><i class="fa-solid fa-circle-plus"></i>Register</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+        </ul>
+    </nav>
+    <!-- ==========End of Navigation Bar========== -->
+    <!-- ==========Heading Banner starts here========== -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>SHOPPING CART</h1>
+            <p>This is shopping cart..</p>
+        </div>
+    </div>
+    <!-- ==========Heading Banner ends here========== -->
+    <!-- ==========Cart Page starts here========== -->
+    <div class="s_cart">
+        <div class="s_head">
+            <p>Your shopping cart has</p>
+        </div>
+        <div class="c_table_div">
+            <table class="cart_table">
+                <thead>
+                    <tr>
+                        <th>Sr No.</th>
+                        <th>Item Name</th>
+                        <th>Rate</th>
+                        <th>Quantity</th>
+                        <th>Tax</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img src="/img/products/iphone-13-pro_1.jpg" alt=""> iPhone 13 Pro Max</td>
+                        <td>&#8377;1,18,952</td>
+                        <td><button>+</button>1<button>-</button></td>
+                        <td>&#8377;5,948</td>
+                        <td>&#8377;1,24,900</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td>Total</td>
+                        <td rowspan="5">&#8377;1,24,900</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="order_summary">
+            <p class="ord_sum_head">Order Summary:</p>
+            <p><span>Name:</span> Atharva Suryakant Mali</p>
+            <p><span>Amount:</span> &#8377;1,24,900</p>
+            <p><span>Address:</span> Flat No. 105, Vishwakarma Complex, Devkar Panand, Kolhapur.</p>
+            <p><span>City:</span> Kolhapur</p>
+            <p><span>State:</span> Maharashtra</p>
+        </div>
+        <div class="pay_button">
+            <a href="payment.html"><button>Proceed to Payment<i
+                        class="fa-solid fa-arrow-right-from-bracket"></i></button></a>
+        </div>
+    </div>
+    <!-- ==========Cart Page ends here========== -->
+
+    <!-- Footer Section starts here -->
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+        </div>
+        <ul class="foot_list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">&copy; Atharva Mali 2022</p>
+    </section>
+    <!-- Footer Section starts ends here -->
+</body>
+
+</html>
